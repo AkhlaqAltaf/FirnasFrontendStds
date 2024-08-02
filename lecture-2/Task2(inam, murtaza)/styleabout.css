@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width:100% ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navbar {
+    
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(4, 18, 63, 0.8);
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    height: 60px;
+}
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.logo a{
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+span{
+    color: green;
+}
+.banner{
+    
+    text-align: center;
+    padding: 20vh;
+    background-color: green;
+    color: white;
+    box-sizing: border-box;
+
+}
+.container {
+    margin-top: 30px; 
+    padding: 20px;
+}
+.about{
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+
+}
+.right{
+    margin-top: 30px;
+    width: 50%;
+    margin-left:100px ;
+}
+.left{
+    margin-top: 30px;
+    width: 50%;
+    
+}
+.vertical-line {
+    width: 1px;
+    background-color: black;
+    height: 100%;
+    margin: 0 20px;
+}
