@@ -1,0 +1,95 @@
+html, body, .carousel, .carousel-inner, .carousel-inner .carousel-item {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    position: fixed;
+    background-color: #F85606;
+    display: flex;
+    padding: 10px; 
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+.nav-links-container {
+    display: flex;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: auto; 
+}
+
+.nav-links li {
+ 
+    margin: 0 15px;
+    color: white;
+}
+
+.mt-navbar {
+    margin-top: 110px; 
+}
+.logo{
+    display: flex;
+    padding: 10px;
+    
+    
+}
+.search-bar{
+    margin-left: 5vw;
+    padding: 10px;
+}
+.search-btn{
+    padding: 10px;
+    margin-left: -5px;
+    outline: none;
+}
+.cart-icon{
+    margin-left: 15px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.carousel{
+    width: 100%;
+    max-height: 450px;
+    
+}
+.items{
+    display: flex;
+    justify-content: center;
+    
+}
+.category{
+    border: 1px solid black;
+    transition: background-color 1s ease, transform 0.3s ease;
+
+}
+.category:hover{
+    box-shadow: black 1px;
+    cursor: pointer;
+    
+}
+.category h5{
+    text-align: center;
+}
+.inner h3{
+    margin: 40px;
+}
