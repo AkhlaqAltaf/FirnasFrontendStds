@@ -1,0 +1,90 @@
+.header{
+    z-index: 999;
+    position: fixed;
+   background-color: white;
+    width: 100vw;
+}
+
+#sidebar{
+    margin-top: 8vh;
+    margin-left: -1vw;
+}
+.vid{
+    margin-top: 8vh;
+}
+.one{
+    width: 45vw;
+   display: inline flex;
+    margin-bottom: 0%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.two{
+    width: 35px;
+    height: 28px;
+    display: flex;
+    justify-content: right;
+    margin-left: 10px;
+}
+.three{
+   
+    display: inline flex;
+    padding-left: 3vw;
+}
+.four{
+    display: flex;
+    justify-content: right;
+}
+@media (max-width:1270px){
+    .five{
+        display:none ;
+    }
+}
+
+@media (max-width:600px){
+    .eight{
+        display:none ;
+    }
+}
+@media (max-width:420px){
+    .nine{
+        display:none ;
+    }
+}
+
+@media (max-width:300px){
+    .ten{
+        display:none ;
+    }
+}
+@media (max-width:500px){
+    .eleven{
+        display:none ;
+    }
+}
+.contain {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .channelname{
+    color: #aaaaaa;
+  }
+  .channelpic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+  }
