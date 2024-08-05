@@ -10,3 +10,4 @@
 
 
 ## IF YOU FACE ANY ISSUE PLEASE COME IN OFFICE WE WILL SOLVE IT TOGATHER 
+![food panda full page ](../Lecture-3/murtaza/output/fullpagefp.png)
