@@ -10,3 +10,13 @@
 ## Tsak done by Inam, Murtaza
 ![home page](./output(inam,murtaza)/home.png)
 ![home page](./output(inam,murtaza)/home1.png)
+
+
+## COMANDS FOR GIT 
+1. git add .
+2. git commit -m "......."
+3. git push origin userbranch
+4. git pull origin main                 
+
+You need to pull  before doing any task 
+you need to push code after done your task 
