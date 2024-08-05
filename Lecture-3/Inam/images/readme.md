@@ -10,10 +10,7 @@
 
 
 
-## IF YOU FACE ANY ISSUE PLEASE COME IN OFFICE WE WILL SOLVE IT TOGATHER 
+
 
 ## Task done for today by inam
 ![daraz home page](../Output/full%20page.png)
-
-
-[def]: ../Output/full%20page.png
