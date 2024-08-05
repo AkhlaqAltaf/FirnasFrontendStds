@@ -14,3 +14,6 @@
 
 ## Task done for today by inam
 ![daraz home page](../Output/full%20page.png)
+
+
+[def]: ../Output/full%20page.png
