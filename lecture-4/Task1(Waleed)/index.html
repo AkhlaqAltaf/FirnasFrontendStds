@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1 id="0ne">welcome to Video Management system</h1>
+    <h4 id="two">press 1 for video uploading</h4>
+    <h4 id="three">press 2 for video playing</h4>
+    <h4 id="four">press 3 for video downloading</h4>
+    <h4 id="five">press 4 for video history</h4>
+
+    <script>
+
+        let var1 = document.getElementById("one");
+        let var2 = document.getElementById("two");
+        let var3 = document.getElementById("three");
+        let var4 = document.getElementById("four");
+        let var5 = document.getElementById("five");
+        alert("welcome to video management system")
+        alert("press 1 for video uploading, \n press 2 for video playing, \n press 3 for video saving, \n press 4 for video history");
+
+        let key = prompt("enter the key :");
+
+        let video = [];
+        let videostore = [];
+        if (key == 1) {
+            let name=prompt("please enter the video name :")
+            let size = prompt("Enter the video size:");
+            let time = prompt("Enter the video duration time:");
+            video.push(name);
+            video.push(size);
+            video.push(time);
+            videostore.push(video);
+            console.log("your video is successfully uploaded ")
+
+        } else {
+            console.log("Key is not 1. No action taken.");
+        }
+        console.log("Video store:", videostore);
+    </script>
+</body>e
+
+</html>
