@@ -18,3 +18,9 @@ and in 2nd column right side should have opocit background and left side should 
 ![about us page](./output(inam,murtaza)/about2.png)
 ![contact us page](./output(inam,murtaza)/contactus.png)
 ![contact us page](./output(inam,murtaza)/contactus1.png)
+
+
+## Done Task By Waleed
+
+![about us page](./output(waleed)/aboutus.png)
+![contact us page](./output(waleed)/contact.png)
