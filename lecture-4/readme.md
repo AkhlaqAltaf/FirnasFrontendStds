@@ -10,4 +10,9 @@
 1. Create Console Base product Uploading Purchasing And Inventory Management System 
 
 # Waleed 
+<<<<<<< HEAD
  Create Console Base System for uploading video (video name not require video ) video playing , video saving , history management 
+=======
+1. Create Console Base System for uploading video (not require video ) video playing , video saving , history management 
+
+>>>>>>> cddb3f8fcd3dfc3a383ff48d5fcb0313bf3c46a6
