@@ -17,6 +17,8 @@ function Navbar(){
                 </li>
                 <li>
                 <Link to='form'> Form</Link>                </li>
+                <li><Link to='map'> Data Maping</Link>                </li>
+
                 <li>contactus</li>
             </ul>
         </nav>
