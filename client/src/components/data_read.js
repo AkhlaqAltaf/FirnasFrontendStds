@@ -1,9 +1,12 @@
-import {useState} from 'react';
-
+import {useEffect, useState} from 'react';
+import {  useNavigate } from 'react-router-dom';
 function UserForm (){
+
+    var navigate = useNavigate();
 
     const [username, setUsername] = useState("username");
     const [password,setPassword] = useState("Password");
+    const [auth,setAuth] = useState(null);
 
 
     function UserName (event){
@@ -17,10 +20,23 @@ function UserForm (){
 
     }
 
+
+    // use effect 
+
+
+
+ 
+
+
+
     function SubmitData(event){
        event.preventDefault();
-        console.log(username);
-        console.log(password);
+
+           navigate('/',{state:{username:username,password:password}}  );
+
+
+    
+      
     }
     return (
         <>
@@ -28,6 +44,7 @@ function UserForm (){
 
             <input name = "username" type='text' onChange={UserName} />
             <input name='password' type='password' onChange={PasswordChange} />
+
             <button onClick={SubmitData}>
                 Submit
             </button>

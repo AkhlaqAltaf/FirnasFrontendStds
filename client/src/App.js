@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import UserForm from "./components/data_read";
 import Navbar from "./components/navbar";
+import Home from "./components/home";
+import Maping from "./components/maping";
 
 
 function App() {
@@ -10,8 +12,11 @@ function App() {
 
    
    <Routes>
-    <Route path="/" element={<h1>Home page</h1>} />
+    <Route path="/" element={<Home/>} />
     <Route path='form' element={<UserForm/>} />
+    <Route path='/map' element={<Maping/>} />
+
+
 
    </Routes>
    </>
