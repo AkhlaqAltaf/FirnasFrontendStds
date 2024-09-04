@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import test from "../apis/test";
+import rewistertest from "../apis/register";
 function Navbar(){
 
     return (
@@ -19,7 +21,10 @@ function Navbar(){
                 <Link to='form'> Form</Link>                </li>
                 <li><Link to='map'> Data Maping</Link>                </li>
 
+
                 <li>contactus</li>
+                <li><button onClick={rewistertest}> TEST API</button>                </li>
+
             </ul>
         </nav>
         </>
